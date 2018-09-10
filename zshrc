@@ -91,8 +91,11 @@ cdd()
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH="$HOME/.bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
+export PATH="$PATH:$HOME/.bin:$PATH"
+export PATH="$PATH:/usr/local/sbin:$PATH"
+export PATH="$PATH:$HOME/.asdf/installs/nodejs/10.6.0/.npm/bin"
+export PATH="$PATH:$(yarn global bin):$PATH"
+export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
 
 . $HOME/.asdf/asdf.sh
 
