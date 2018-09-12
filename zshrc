@@ -77,7 +77,7 @@ plugins=(
 	autojump
 	colored-man-pages
 	git
-  osxt
+  osx
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 )
