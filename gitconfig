@@ -31,3 +31,5 @@
 	name = Leo Daniel
 	email = danielj1122@gmail.com
 	signingkey = DAC9227C70414548
+[credential]
+	helper = osxkeychain

@@ -164,3 +164,5 @@ elif type compctl &>/dev/null; then
   compctl -K _npm_completion npm
 fi
 ###-end-npm-completion-###
+. /Users/leodaniel/.asdf/asdf.sh
+. /Users/leodaniel/.asdf/completions/asdf.bash
