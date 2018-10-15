@@ -73,13 +73,7 @@ POWERLEVEL9K_SHORTEN_DELIMITER=""
 
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_to_last"
 
-plugins=(
-	autojump
-	colored-man-pages
-	git
-  osx
-	zsh-autosuggestions
-	zsh-syntax-highlighting
+plugins=(autojump colored-man-pages colorize git osx zsh-autosuggestions zsh-syntax-highlighting command-not-found 
 )
 
 # print contents after moving to given directory
