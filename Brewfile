@@ -21,7 +21,7 @@ brew "bash"
 # Programmable completion for Bash 3.2
 brew "bash-completion"
 # FSF/GNU ld, ar, readelf, etc. for native development
-brew "binutils"
+brew "binutils", link: true
 # Dependency Manager for PHP
 brew "composer"
 # GNU File, Shell, and Text utilities
@@ -48,6 +48,8 @@ brew "readline"
 brew "gawk"
 # GNU debugger
 brew "gdb"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
 # Distributed revision control system
 brew "git"
 # Command-line option parsing library
@@ -105,7 +107,7 @@ brew "mycli"
 # Open source relational database management system
 brew "mysql"
 # Node version management
-brew "n"
+brew "n", link: false
 # Platform built on V8 to build network applications
 brew "node", link: false
 # Platform built on V8 to build network applications
@@ -118,8 +120,6 @@ brew "pandoc"
 brew "postgresql", restart_service: true
 # Monitor data's progress through a pipe
 brew "pv"
-# Cross-platform application and UI framework
-brew "qt"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
 # Persistent key-value database, with built-in net interface
@@ -132,6 +132,8 @@ brew "shellcheck"
 brew "shfmt"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
+# Tool Command Language
+brew "tcl-tk"
 # Code-search similar to ack
 brew "the_silver_searcher"
 # Terminal multiplexer
@@ -187,6 +189,7 @@ mas "Copied", id: 1026349850
 mas "Countdown Timer Plus", id: 1150771803
 mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
+mas "dDNS Broker", id: 1050307950
 mas "Disk Doctor", id: 455970963
 mas "Doo", id: 1107759193
 mas "Due", id: 524373870
@@ -218,6 +221,7 @@ mas "Numbers", id: 409203825
 mas "OhMyStar2", id: 1218642292
 mas "OmniFocus", id: 867299399
 mas "OmniOutliner", id: 1142578772
+mas "Ora", id: 1340501510
 mas "Pages", id: 409201541
 mas "Paprika Recipe Manager", id: 451907568
 mas "Planny", id: 1294511784
@@ -239,5 +243,7 @@ mas "Trello", id: 1278508951
 mas "Ulysses-old", id: 623795237
 mas "UlyssesMac", id: 1225570693
 mas "Unclutter", id: 577085396
+mas "Unsplash Wallpapers", id: 1284863847
 mas "Wake Up Time Pro", id: 516371849
 mas "Xcode", id: 497799835
+mas "Yoink", id: 457622435
